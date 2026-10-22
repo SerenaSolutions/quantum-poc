@@ -1,0 +1,17 @@
+{
+ "spec": "Z-QEA",
+ "modulo": "quantum_entropy.py",
+ "data": "2026-10-22T02:56:01+00:00",
+ "modo": "HARDWARE REAL (IBM Quantum ibm_marrakesh, job dbcnmds24mrc73ck0p0g, 256 shots, 32 qubits em superposicao Hadamard)",
+ "job": {
+  "id": "dbcnmds24mrc73ck0p0g",
+  "backend": "ibm_marrakesh",
+  "shots": 256,
+  "qubits": 32
+ },
+ "derivacao": "pool = SHAKE256(bits medidos, 256 bytes). Mistura final no selador: SHAKE256(pool_public + os.urandom) \u2014 entropia quantica atestada + entropia fresca do sistema, nunca so o pool publico",
+ "pool_sha3_256": "9ce9eaabaa1273f2564cd4365455f12d3a995eef3652c081db583fb2b2765fdd",
+ "pool_hex": "03dc9024a5b5d42a74f622abfece033461772a6134b7b43070d55c81643c6246258e54325c5e36b2af4a8655af9be0dacb0e2c272a0bfa71742f1c955ca5e8b32427780eb46270a09a9f39c704668b1c7f0062932d98dcc47b02ce2bbd5112e219fdc7e47592b151b393fd329f8801d05e8b2a09abf449d679484fbb7cf834de29f1551981d143803428967e02d360112b1bdea637d3809bd9feaed19dc1610a182e8331d49d53d6a1562ef0fd4e305146132a7077d5edf907d4b40ff4024d567df6e101cb4c9db212343cfab6abb400f15ae5986224a45f18d371cf0b11d93e449069c8fcc1d85a806992c56ae6dada0f122f79ccd6678ea620fbee1089f309",
+ "nota": "pool publico e atestado de beacon (origem quantica comprovada); seguranca do nonce vem da mistura com entropia fresca do SO",
+ "selo_sha3_256": "b97f21940ca5f1119474773162c7e08809b9769e2312b1de8e41519749bf5ffd"
+}

@@ -1,0 +1,13 @@
+{
+ "bateria": "zqea-verify v2 sobre PoC",
+ "resultados": [
+  "poc/z-anyon-lab/receipt_anyon_hw.json -> VERIFICADO selo+ML-DSA-44",
+  "poc/zq-gate/receipt_zqgate_hw.json -> VERIFICADO selo+ML-DSA-44",
+  "poc/zqea-sealer/receipt_sealer_poc.json -> VERIFICADO selo+ML-DSA-44",
+  "poc/zqea-verifier/receipt_verifier_poc.json -> VERIFICADO selo+ML-DSA-44",
+  "poc/zy-ai-rag/receipt_zyai_hw.json -> VERIFICADO selo+ML-DSA-44",
+  "receipts/equivalencia_dj_multilingue.json -> VERIFICADO selo+ML-DSA-44",
+  "fraude-tamper -> RECUSADA (selo rompido + assinatura PQ invalida)"
+ ],
+ "veredito": "TODAS_VERIFICADAS_PQ_OK_FRAUDE_RECUSADA"
+}
